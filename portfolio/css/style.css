@@ -1,0 +1,1275 @@
+@charset "UTF-8";
+
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}template{display:none}[hidden]{display:none}
+
+html {
+    font-size: 100%;
+    font-family: "utukushi", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'utukushi';
+    src:url(../fonts/UtsukushiFONT.otf) format('opentype')
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    height: 0 auto;
+}
+
+body {
+    margin: 0;
+}
+
+/* ヘッダー */
+
+#header li a {
+    color: white;
+}
+
+#header li a:hover {
+    opacity: 0.5;
+}
+
+span {
+    color: aqua;
+}
+
+li .bold {
+    font-weight: bold;
+    color: #FFF;
+}
+
+span .bold {
+    font-weight: bold;
+    color: #FFF;
+}
+
+.consept .bold ,
+.design .bold,
+.title .bold,
+.goal .bold
+{
+    font-weight: bold;
+    color: #FFF;
+}
+
+/* PC版表示 */
+
+.pc {
+    display: block !important;
+}
+.sp {
+    display: none !important;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.header {
+    position: relative;
+}
+
+.header h1 {
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    font-size: 150px;
+    color: aliceblue;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header ul {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    font-size: 45px;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto;
+}
+
+.header li {
+    padding: 5px;
+}
+
+.up-btn i {
+    position: relative;
+}
+
+.up-btn i {
+    position: absolute;
+    position: fixed;
+    top: 83%;
+    right: 3%;
+    font-size: 3rem;
+    color: #0C1027;
+    background-color: aliceblue;
+    border-radius: 50vh;
+    padding: 13px 16px;
+    display: block;
+    z-index: 10000;
+}
+
+/* スキル */
+
+.skill .main-content {
+    position: relative;
+}
+
+.skill h2 {
+    position: absolute;
+    top: 150%;
+    right: 38%;
+    font-size: 130px;
+    color: aliceblue;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.skill p {
+    position: absolute;
+    top: 183%;
+    right: 30%;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.skill a {
+    position: absolute;
+    top: 200%;
+    right: 31%;
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 100vh;
+    padding: 10px 25px 10px 25px;
+}
+
+.skill a:hover{
+    opacity: 0.7;
+    background: rgba(240, 248, 255, 0.185);
+}
+
+/* skill */
+
+.content-title {
+    position: absolute;
+    color: aliceblue;
+    left: 38%;
+    font-size: 3rem;
+}
+.secondary-content h2 {
+    top: 120%;
+}
+
+.secondary-content ul {
+    position: absolute;
+    color: aliceblue;
+    top: 143%;
+    right: 12%;
+    font-size: 1.3rem;
+    line-height: 30px;
+    
+}
+
+.secondary-content li {
+    padding: 20px;
+}
+
+.tertiary-content ul {
+    position: absolute;
+    color: aliceblue;
+    top: 260%;
+    left: 43%;
+    font-size: 1.3rem;
+    line-height: 30px;
+}
+.tertiary-content h2 {
+    top:240%;
+    left: 27%;
+}
+
+.tertiary-content li {
+    padding: 20px;
+}
+
+/* ワークス */
+
+.works {
+    position: relative;
+}
+
+.works h2 {
+    position: absolute;
+    top: 32%;
+    left: 9.5%;
+    font-size: 130px;
+    color: aliceblue;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.works p {
+    position: absolute;
+    top: 60%;
+    left: 9%;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.works a {
+    position: absolute;
+    top: 75%;
+    left: 19.5%;
+    font-size: 1.1rem;
+    font-weight: 100;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    border-radius: 100vh;
+    padding: 10px 25px 10px 25px;
+}
+
+.works a:hover {
+    opacity: 0.7;
+    background: rgba(240, 248, 255, 0.185);
+}
+
+/* works */
+
+.works-list ul {
+    position: absolute;
+    color: aliceblue;
+    top: 16%;
+    left: 5%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0;
+}
+
+.works-list li {
+    padding: 15px;
+}
+
+.works-list li a {
+    color: aliceblue;
+}
+
+.works-list li a:hover {
+    opacity: 0.7;
+}
+
+.aquarium h2 {
+    position: absolute;
+    top: 120%;
+    left: 5%;
+    font-size: 2.5rem;
+    color: aliceblue;
+    display: flex;
+}
+
+
+.aquarium ul {
+    position: absolute;
+    left: 47%;
+    top:138%;
+    font-size: 0.9rem;
+    color: aliceblue;
+    right: 8%;
+}
+
+.aquarium .art {
+    position: relative;
+}
+
+.aquarium .art {
+    position: absolute;
+    width: 350px;
+    height: 470px;
+    top: 141%;
+    left: 15%;
+}
+
+ul p {
+    line-height: 27px;
+}
+
+ul li {
+    padding: 5px;
+}
+
+.animalzoo ul {
+    position: absolute;
+    top:268%;
+    left: 47%;
+    font-size: 0.9rem;
+    color: aliceblue;
+    right: 8%;
+}
+
+.animalzoo h2 {
+    position: absolute;
+    top: 240%;
+    left: 5%;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.animalzoo .art {
+    position: relative;
+}
+
+.animalzoo .art {
+    position: absolute;
+    width: 350px;
+    height: 470px;
+    top: 260%;
+    left: 15%;
+}
+
+.escapegame h2 {
+    position: absolute;
+    top: 355%;
+    left: 5%;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.escapegame .art {
+    position: relative;
+}
+
+.escapegame .art {
+    position: absolute;
+    width: 460px;
+    height: 460px;
+    top: 378%;
+    left: 8%;
+}
+
+.escapegame ul {
+    position: absolute;
+    top:377%;
+    left: 47%;
+    font-size: 0.9rem;
+    color: aliceblue;
+    right: 8%;
+}
+
+.wakkanaitourism h2 {
+    position: absolute;
+    top: 480%;
+    left: 5%;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.wakkanaitourism .art {
+    position: relative;
+}
+
+.wakkanaitourism .art {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    top: 510%;
+    left: 3%;
+}
+
+.wakkanaitourism ul {
+    position: absolute;
+    top:500%;
+    left: 47%;
+    font-size: 0.9rem;
+    color: aliceblue;
+    right: 8%;
+}
+
+.myportfolio h2 {
+    position: absolute;
+    top: 600%;
+    left: 5%;
+    font-size: 2.5rem;
+    color: aliceblue;
+}
+
+.myportfolio .art {
+    position: relative;
+}
+
+.myportfolio .art {
+    position: absolute;
+    width: 270px;
+    height: 740px;
+    top: 625%;
+    left: 12%;
+}
+
+.myportfolio ul {
+    position: absolute;
+    top:620%;
+    left: 47%;
+    font-size: 0.9rem;
+    color: aliceblue;
+    right: 8%;
+    line-height: 50px;
+}
+
+.art-collection ul,
+.art-collection p
+{
+    position: relative;
+}
+
+.art-collection ul
+{
+    position: absolute;
+    top:750%;
+    display: flex;
+    padding-left: 12px;
+    margin: auto;
+}
+
+
+.art-collection .art,
+.art-collection .sub-art,
+.art-collection .fin-art,
+.art-collection .fin-text
+{
+    width: 400px;
+    height: 230px;
+    margin: 0 20px 0 20px;
+}
+
+.art-collection .art-text,
+.art-collection .sub-text,
+.art-collection .fin-text
+{
+    position: absolute;
+    font-size: 0.9rem;
+    color: aliceblue;
+    width: 410px;
+    top: 110%;
+    margin: 0 10px 0 13px;
+}
+
+.art-collection .sub-text {
+    left: 34.5%;
+}
+
+.art-collection .fin-text {
+    left: 67.5%;
+}
+
+/* アバウト */
+
+.about {
+    position: relative;
+}
+
+.about h2 {
+    position: absolute;
+    top: 17%;
+    right: 26%;
+    font-size: 130px;
+    color: aliceblue;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.about p {
+    position: absolute;
+    top: 45%;
+    right: 23%;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.about a {
+    position: absolute;
+    top: 62%;
+    right: 23%;
+    font-size: 1.1rem;
+    font-weight: 100;
+    border: 1px solid aliceblue;
+    color: aliceblue;
+    border-radius: 100vh;
+    padding: 10px 25px 10px 25px;
+}
+
+.about a:hover {
+    opacity: 0.7;
+    background: rgba(240, 248, 255, 0.185);
+}
+
+/* about */
+
+ruby {
+    position: absolute;
+    top: 4%;
+    right: 7%;
+    left: 50%;
+    font-size: 3rem;
+    color: aliceblue;
+}
+
+.content-text {
+    position: absolute;
+    top: 15%;
+    right: 7%;
+    left: 50%;
+    font-size: 1rem;
+    color: aliceblue;
+    line-height: 50px;
+    font-weight: normal;
+}
+
+.pc-icon {
+    position: relative;
+}
+
+.pc-icon {
+    position: absolute;
+    top:62%;
+    left: 77%;
+    height: 240px;
+    width: 240px;
+}
+
+
+.info {
+    position: absolute;
+    top: 120%;
+    color: aliceblue;
+}
+
+.info h2 {
+    font-size: 100px;
+    margin-left: 25px;
+    margin-top: 30px;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info .sub-title {
+    font-size: 1.3rem;
+    margin-left: 35px;
+    margin-top: 80px;
+    line-height: 30px;
+}
+
+.info .sub-text {
+    font-size: 1rem;
+    line-height: 40px;
+    margin: 0 30px;
+}
+
+.info .heading {
+    font-size: 1.3rem;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.info .text {
+    font-size: 1rem;
+    line-height: 55px;
+    margin: 0 30px;
+}
+
+.sub-info {
+    position: absolute;
+    top: 240%;
+    color: aliceblue;
+}
+
+.sub-info h4 {
+    font-size: 1.3rem;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.sub-info .info-text {
+    font-size: 1rem;
+    line-height: 55px;
+    margin: 0 30px;
+}
+
+.sub-info .note-text {
+    font-size: 1rem;
+    line-height: 40px;
+    margin: 0 30px;
+    line-height: 50px;
+}
+
+.sub-info .note-title {
+    font-size: 1.3rem;
+    margin-left: 35px;
+    margin-top: 80px;
+}
+
+/* フッター - コンタクト */
+
+.contact {
+    position: relative;
+}
+
+.contact h2{
+    position: absolute;
+    top: 13%;
+    left: 29%;
+    font-size: 220px;
+    color: aliceblue;
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.contact a {
+    position: absolute;
+    top: 65%;
+    left: 34%;
+    font-size: 1.5rem;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 100vh;
+    padding: 10px 25px 10px 25px;
+}
+
+.contact a:hover{
+    opacity: 0.7;
+    background: rgba(240, 248, 255, 0.185);
+}
+
+.contact i {
+    padding-left: 5px;
+}
+
+/* ---------------------------------------- */
+
+@media only screen and (max-width:500px){
+
+/* ヘッダー */
+
+.pc {
+    display: none !important;
+}
+.sp {
+    display: block !important;
+}
+
+.menu {
+    position: relative;
+}
+
+  /* Nav items */
+.menu {
+    position: absolute;
+    display: block;
+    list-style: none;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    height: 0 auto;
+    clear: both;
+    background: var(--background-navbar);
+    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+    transform: scale(1, 0);
+    transform-origin: top;
+}
+
+  /* Hamburger menu button */
+.menu-btn:checked ~ .menu {
+    transform: scale(1, 1);
+    transform-origin: top;
+    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+  /* Hamburger menbu text */
+.menu a {
+    text-decoration: none;
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #0C1027;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.menu ul {
+    padding: 0px 60px;
+    padding-bottom: 30px;
+}
+
+.menu li {
+    border-bottom: 1px solid #FFF;
+    opacity: 0;
+    transition: 0.5s;
+    color: #0C1027;
+    margin-top: 15px;
+}
+
+.menu-btn:checked ~ .menu a,
+.menu-btn:checked ~ .menu li {
+    opacity: 1;
+    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.2s;
+}
+
+.menu-btn {
+    display: none;
+}
+
+.menu-icon {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    top: 3%;
+    right: 5%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.menu-icon {
+    position: absolute;
+}
+
+.navicon {
+    background: #FFF;
+    display: block;
+    height: 3px;
+    width: 40px;
+    position: relative;
+    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+    margin: 15px;
+}
+
+.navicon:before,
+.navicon:after {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: #FFF;
+    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+
+.navicon:before {
+    top: 9px;
+}
+
+.navicon:after {
+    bottom: 9px;
+}
+
+  /* Hamburger Menu Animation Start */
+.menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before {
+    top: 0;
+}
+.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    bottom: 0;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+    background: rgba(0, 0, 0, 0);
+    transition: 0.2192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
+}
+  /* Hamburger Menu Animation End */
+
+
+.header h1 {
+    font-size: 70px;
+    top: 30%;
+}
+
+.skill h2 {
+    top: 153%;
+    left: 35%;
+    font-size: 135px;
+}
+
+.header ul {
+    font-size: 15px;
+    right: 10%;
+}
+
+.up-btn i{
+    font-size: 1.5rem;
+    top:90%;
+    right: 3%;
+}
+
+.skill p {
+    top: 183%;
+    right: 5%;
+    font-size: 30px;
+    left: 18%;
+}
+
+.skill a,
+.works a,
+.about a {
+    border-radius: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid aliceblue;;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+
+.skill a {
+    left: 58%;
+    font-size: 25px;
+    top: 213%;
+    padding: 20px 20px;
+}
+
+.skill a:hover,
+.works a:hover,
+.about a:hover,
+.contact a:hover {
+    opacity: 0.7;
+    background: rgba(240, 248, 255, 0.185);
+}
+
+.works h2 {
+    font-size: 135px;
+    top: 25%;
+    left: 5%;
+}
+
+.works p {
+    font-size: 30px;
+    top: 53%;
+    left: 5%;
+}
+
+.works a {
+    left: 5%;
+    font-size: 25px;
+    top: 77%;
+    padding: 20px 20px;
+}
+
+.about h2 {
+    font-size: 135px;
+    top: 1%;
+    right: 10%;
+}
+
+.about p {
+    font-size: 30px;
+    top: 27%;
+    left: 30%;
+    right: 5%;
+}
+
+.about a {
+    right: 5%;
+    font-size: 25px;
+    top: 45%;
+    padding: 20px 20px;
+}
+
+.contact h2{
+    font-size: 135px;
+    left: 13%;
+    top: 12%;
+}
+
+.contact a {
+    font-size: 15px;
+    left: 22%;
+    top: 43%;
+}
+
+
+/* スキル　*/
+
+.pc {
+    display: none;
+}
+
+.sp {
+    display: block;
+}
+
+.content-title {
+    display: none;
+}
+
+.secondary-content ul {
+    top: 9%;
+    width: 360px;
+    right: 3%;
+}
+
+.sp-text {
+    position: relative;
+}
+
+.sp-text {
+    position: absolute;
+}
+
+.illustrator ul {
+    top: 52%;
+}
+
+.photoshop ul {
+    top: 93%;
+}
+
+.tertiary-content ul,
+.secondary-content ul
+{
+    font-size: 14.5px;
+    padding: 0;
+    left: 3%;
+    line-height: 25px;
+}
+
+
+.secondary-content li,
+.tertiary-content li
+{
+    padding: 0;
+}
+
+/* ワークス */
+
+.sp .sub {
+    color: #FFF;
+    font-size: 20px;
+}
+
+.sp ul {
+    font-size: 30px;
+    left: 3%;
+}
+
+.aquarium h2 {
+    left: 2%;
+    top: 125%;
+}
+
+.animalzoo h2 {
+    top: 290%;
+    left: 3%;
+}
+
+.escapegame h2 {
+    top: 445%;
+    left: 2%;
+}
+
+.wakkanaitourism h2 {
+    top: 595%;
+    left: 2%;
+}
+
+.myportfolio h2 {
+    top: 716%;
+    left: 2%;
+}
+
+.aquarium h2,
+.animalzoo h2,
+.escapegame h2,
+.wakkanaitourism h2,
+.myportfolio h2
+{
+    font-size: 24px;
+    margin: 0;
+}
+
+.aquarium ul {
+    top: 205%;
+}
+
+.animalzoo ul {
+    top: 375%;
+}
+
+.escapegame ul {
+    top: 513%;
+}
+
+.wakkanaitourism ul {
+    top: 638%;
+}
+
+.myportfolio ul {
+    top: 753%;
+}
+
+.aquarium ul,
+.animalzoo ul,
+.escapegame ul,
+.wakkanaitourism ul,
+.myportfolio ul
+{
+    font-size: 12px;
+    padding: 0;
+    left: 3%;
+    right: 3%;
+}
+
+ul p {
+    margin: 0;
+    line-height: 22px;
+}
+
+.aquarium .art {
+    left: 3%;
+    top: 134%;
+}
+
+.animalzoo .art {
+    left: 3%;
+    top: 302%;
+}
+
+.escapegame .art {
+    top: 457%;
+    width: 360px;
+    height: 360px;
+    left: 2%;
+}
+
+.wakkanaitourism .art {
+    top: 607%;
+    height: 200px;
+    width: 365px;
+    left: 1%;
+}
+
+.myportfolio .art
+{
+    display: none;
+}
+
+/* マイポートフォリオ */
+
+
+.myportfolio a {
+    position: relative;
+}
+
+.myportfolio a {
+    position: absolute;
+    top: 724%;
+    left: 2%;
+    right: 2%;
+}
+
+.modal-wrapper {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 60px 10px;
+    text-align: center
+}
+
+.modal-wrapper:not(:target) {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .3s, visibility .3s;
+}
+
+.modal-wrapper:target {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .4s, visibility .4s;
+}
+
+.modal-wrapper::after {
+    display: inline-block;
+    height: 100%;
+    margin-left: -.05em;
+    vertical-align: middle;
+    content: ""
+}
+
+.modal-wrapper .modal-window {
+    box-sizing: border-box;
+    display: inline-block;
+    z-index: 20;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    padding: 30px 30px 15px;
+    border-radius: 2px;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .6);
+    vertical-align: top;
+}
+
+.modal-wrapper .modal-window .modal-content {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.modal-overlay {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .8)
+}
+
+.modal-wrapper .modal-close {
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    color: #95979c !important;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none;
+    text-indent: 0
+}
+
+.modal-wrapper .modal-close:hover {
+    color: #2b2e38 !important
+}
+
+.art-collection ul  {
+    width: 340px;
+    height: 220px;
+    flex-direction: column;
+    top: 860%;
+    padding: 0;
+}
+
+.art-collection .art
+{
+    margin-left: 17px;
+    margin-bottom: 250px;
+}
+
+.art-collection .art-text {
+    left: 5%;
+    margin: 0;
+    font-size: 13px;
+    width: 350px;
+}
+
+.art-collection .sub-art {
+    margin-left: 17px;
+    margin-bottom: 200px;
+}
+
+.art-collection .sub-text {
+    left: 5%;
+    margin-top: 440px;
+    font-size: 13px;
+    margin-left: 0;
+    width: 350px;
+}
+
+.art-collection .fin-art {
+    margin-left: 17px;
+    margin-top: 15%;
+}
+
+.art-collection .fin-text {
+    left: 5%;
+    margin-top: 880px;
+    font-size: 13px;
+    margin-left: 0;
+    width: 350px;
+}
+
+
+
+/* アバウト */
+
+ruby {
+    top: 37%;
+    right: 5%;
+    font-size: 30px;
+}
+
+.content-text {
+    top: 46%;
+    left: 5%;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.pc-icon {
+    width: 220px;
+    height: 220px;
+    top: 3%;
+    left: 4%;
+}
+
+.info h2 {
+    font-size: 55px;
+}
+
+
+.info .heading {
+    margin-top: 140px;
+}
+
+.info .text {
+    line-height: 50px;
+}
+
+.sub-info h4 {
+    margin-top: 1170px;
+}
+
+.sub-info .info-text {
+    line-height: 50px;
+}
+
+}
